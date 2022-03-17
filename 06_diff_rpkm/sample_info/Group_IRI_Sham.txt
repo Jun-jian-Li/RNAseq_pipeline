@@ -1,0 +1,7 @@
+Sample	Group
+SRR5136569	Control
+SRR5136570	Control
+SRR5136571	Control
+SRR5136560	Treat
+SRR5136561	Treat
+SRR5136562	Treat

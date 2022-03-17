@@ -1,0 +1,27 @@
+dir:
+  raw_data_dir: 01_raw_data
+  clean_data_dir: 02_trim_data
+  cut_base_dir: 03_cut_base
+  sort_bam_dir: 04_sort_bam
+  quantify_dir: 05_quantify
+  raw_data_qc_result_dir: result/01_raw_data_qc
+  clean_data_qc_result_dir: result/02_clean_data_qc
+  cut_data_qc_result_dir: result/03_cut_data_qc
+  bam_qc_dir: result/04_bam_qc
+  exp_dir: result/04_exp
+
+
+reference:
+  mouse_reference: /home/ljj/Genome/mouse_GRCm38/grcm38_snp_tran/genome_snp_tran
+  human_reference: /home/ljj/Genome/human_GRCh38/grch38_snp_tran/genome_snp_tran
+
+annotation:
+  mouse_gtf: /home/ljj/Genome/mouse_annotation/Mus_musculus.GRCm38.99.chr.gtf
+  human_reference: /home/ljj/Genome/human_annotation/Homo_sapiens.GRCh38.99.chr.gtf
+
+para:
+  trim_length: 30
+  trim_quality: 20
+  trim_stringency: 3
+  cut_left_base: 10
+  cut_right_base: 10
